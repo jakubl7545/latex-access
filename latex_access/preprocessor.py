@@ -16,9 +16,12 @@
 
 For example it can be used to handle commands defined by \newcommand.'''
 
-import cPickle as pickle
-import latex_access
+try:
+    import cPickle as pickle
+except:
+    import pickle
 
+import latex_access
 
 class preprocessor(latex_access.translator):
     '''Preprocessor translator
