@@ -160,6 +160,19 @@ def expandGlobs(files):
 
 addon = env.NVDAAddon(addonFile, env.Dir('addon'))
 
+licenseFile = env.Command(
+	env.File("addon/LICENSE"),
+	env.File("../LICENSE"),
+	Copy("$TARGET", "$SOURCE")
+)
+env.Alias('license', licenseFile)
+contributorsFile = env.Command(
+	env.File("addon/contributors.txt"),
+	env.File("../contributors.txt"),
+	Copy("$TARGET", "$SOURCE")
+)
+env.Alias('contributors', contributorsFile)
+
 langDirs = [f for f in env.Glob(os.path.join("addon", "locale", "*"))]
 
 #Allow all NVDA's gettext po files to be compiled in source/locale, and manifest files to be generated

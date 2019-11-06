@@ -1,5 +1,7 @@
 addon/doc/*.css
 addon/doc/en/
+addon/LICENSE
+addon/contributors.txt
 *_docHandler.py
 *.html
 *.ini
