@@ -57,7 +57,15 @@ vars.Add("version", "The version of this build", buildVars.addon_info["addon_ver
 vars.Add(BoolVariable("dev", "Whether this is a daily development version", False))
 vars.Add("channel", "Update channel for this build", buildVars.addon_info["addon_updateChannel"])
 
-env = Environment(variables=vars, ENV=os.environ, tools=['gettexttool', mdTool])
+env = Environment(
+	variables=vars,
+	ENV=os.environ,
+	tools=[
+		"gettexttool",
+		mdTool,
+		"t2t",
+	]
+)
 env.Append(**buildVars.addon_info)
 
 if env["dev"]:
@@ -100,6 +108,10 @@ def createAddonHelp(dir):
 		cssPath = os.path.join(docsDir, "style.css")
 		cssTarget = env.Command(cssPath, "style.css", Copy("$TARGET", "$SOURCE"))
 		env.Depends(addon, cssTarget)
+	if os.path.isfile("readme.t2t"):
+		readmePath = os.path.join(docsDir, "en", "readme.t2t")
+		readmeTarget = env.Command(readmePath, "readme.t2t", Copy("$TARGET", "$SOURCE"))
+		env.Depends(addon, readmeTarget)
 	if os.path.isfile("readme.md"):
 		readmePath = os.path.join(docsDir, "en", "readme.md")
 		readmeTarget = env.Command(readmePath, "readme.md", Copy("$TARGET", "$SOURCE"))
@@ -163,8 +175,12 @@ pythonFiles = expandGlobs(buildVars.pythonSources)
 for file in pythonFiles:
 	env.Depends(addon, file)
 
-#Convert markdown files to html
+#Convert t2t and markdown files to html
 createAddonHelp("addon") # We need at least doc in English and should enable the Help button for the add-on in Add-ons Manager
+for t2tFile in env.Glob(os.path.join('addon', 'doc', '*', '*.t2t')):
+	htmlFile = env.txt2tags(t2tFile)
+	env.Depends(htmlFile, t2tFile)
+	env.Depends(addon, htmlFile)
 for mdFile in env.Glob(os.path.join('addon', 'doc', '*', '*.md')):
 	htmlFile = env.markdown(mdFile)
 	env.Depends(htmlFile, mdFile)
