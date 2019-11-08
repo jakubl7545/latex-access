@@ -42,7 +42,7 @@ To use this plugin, you will need to install the following software/libraries:
 Assuming you have followed the steps above and installed everything you need, you can install the plugin and register the COM object by doing the following:
 
 For registering the COM object:
-% BlockQuotes don't work within lists, so the html is written by hand.
+% BlockQuotes don't work within lists in txt2tags, so the html is written by hand.
 '''
 <ol>
 <li> Type windows and r to go into the run dialog, then type cmd and press enter.

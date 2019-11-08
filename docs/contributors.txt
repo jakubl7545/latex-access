@@ -1,9 +1,10 @@
 The following have contributed code or translation tables to the latex-access project:
 
-Alastair Irving <alastair.j.irving@gmail.com.au> - Main developer
-Robin Williams <rmw205@exeter.ac.uk> - Extensive testing, feature suggestions and cleanup of the translation tables
 Daniel Dalton <daniel.dalton10@gmail.com> - Emacs support
-Nathaniel Schmidt <schmidty2244@gmail.com> - NVDA Support 
-Stefan Moisei <vortex37@gmail.com> -  romanian translation of speech table
+Alastair Irving <alastair.j.irving@gmail.com.au> - Main developer
 Dave Mielke <dave@mielke.cc> - BRLTTY integration
+Stefan Moisei <vortex37@gmail.com> -  romanian translation of speech table
 Aron Ocsvari <oaron1@gmail.com> - help with NVDA plugin.
+Derek Riemer <Derek.Riemer@colorado.edu> - Help with NVDA development for latex-access, especially the matrix browser.
+Nathaniel Schmidt <schmidty2244@gmail.com> - NVDA adon Support 
+Robin Williams <rmw205@exeter.ac.uk> - Extensive testing, feature suggestions and cleanup of the translation tables
