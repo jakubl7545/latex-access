@@ -1,1 +1,1 @@
-Comtypes
+Comtypes 1.1.7
