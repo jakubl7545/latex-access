@@ -3,14 +3,14 @@
 
 *.dll
 *.exe
-
+*.jsb
 *.pyc
 *.pyo
 
 nvda/addOn/doc/*.css
 nvda/addon/doc/en/
+
 nvda/*.py[co]
-nvda/*.nvda-addon
 nvda/addon/manifest.ini
 
 *_docHandler.py

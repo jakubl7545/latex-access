@@ -8,4 +8,5 @@ Stefan Moisei <vortex37@gmail.com> -  Romanian translation of speech table
 Aron Ocsvari <oaron1@gmail.com> - Help with NVDA plugin
 Derek Riemer <Derek.Riemer@colorado.edu> - Help with NVDA development for latex-access, especially the matrix browser.
 Nathaniel Schmidt <schmidty2244@gmail.com> - NVDA support
+Istvan Velegi <ivelegi@gmail.com> - help with JAWS scripts
 Robin Williams <rmw205@exeter.ac.uk> - Extensive testing, feature suggestions and cleanup of the translation tables

@@ -1,5 +1,5 @@
 # routing.py
-#    A part of the latex-access project at http://latex-access.sourceforge.net/
+#    A part of the latex-access project at https://github.com/SugarCaneNS/latex-access/
 #    Author: Alastair Irving <alastair.irving@sjc.ox.ac.uk>
 #    Copyright (C) 2011 Alastair Irving/latex-access Contributors
 #

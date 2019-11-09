@@ -1,7 +1,7 @@
 #    latex_access.py
-#    A part of the latex-access project at http://latex-access.sourceforge.net/
-#    Author: Nathaniel Schmidt <nathanieljsch@westnet.com.au>
-#    Copyright (C) 2011 and 2012 Nathaniel Schmidt/Latex-access Contributors
+#    A part of the latex-access project at https://github.com/SugarCaneNS/latex-access/
+#    Authors: Nathaniel Schmidt <nathanieljsch@westnet.com.au>, Julien Cochuyt <j.cochuyt@accessolutions.fr>
+#    Copyright (C) 2011, 2012, 2014 and 2019 Nathaniel Schmidt/Julien Cochuyt/Latex-access Contributors
 #
 #    This program is free software; you can redistribute it
 #    and/or modify it under the terms of the GNU General Public License as published
