@@ -14,21 +14,31 @@ Note: LaTeX-access has not been tested with python 3 and probably won't work wit
 https://sourceforge.net/projects/pywin32 ensuring you have the correct
 file to match your version of python. Install this.
 
-3. Checkout the latest version of latex-access from SVN to a directory on your computer.  Any directory will work, but for the purposes of this readme we will assume it is c:\latex-access
+3. Create a directory on the C: drive named latex_access. (The name
+of the directory or it's level of depth in the filesystem does not
+matter, however choosing a directory with a name easy to remember and
+not too deep in the filesystem makes the next step easier.
+4. Obtain the latest version of the scripts, (although you've
+presumably already done this).  For details of how to obtain the
+latest version please see the general manual.
 
+5. Extract the files and folder in the zip file to the latex\_access
+folder you created earlier. To do this, either simply run the zip file
+with an application such as winrar and copy everything to the folder,
+or extract the files and folder to the relevant location by right
+clicking (or equivalent) on the file within windows explorer.
 
-4. Copy all of the files from within the jaws folder to the folder where your
+6. Copy all of the files from within the jaws folder to the folder where your
 jaws scripts are located, with the exception of this readme file. These are usually in a path such as
-c:\documents and settings\%username%\application data\freedom
-scientific\jaws\%jaws version%\settings\enu
+c:\users\%username%\%appdata%\freedom scientific\jaws\%jaws version%\settings\enu
 (This can be reached using the explore jaws submenu of the jaws menu
 in your start menu).
 
-5. Now open a command prompt by going to run, and typing 'cmd'.
+7. Now open a command prompt by going to run, and typing 'cmd'.
 Switch to the latex-access directory by typing 
 'cd c:\latex-access\latex_access'
 
-6. Type
+8. Type
 'latex_access_com.py' you should hear 'latex_access registered'.  Now
 register the matrix processor object by typing 'matrix_processor.py'
 You should hear a similar message.  Exit the command
@@ -43,7 +53,7 @@ for example
 c:\python26\python.exe latex_access_com.py
 then repeat with matrix_processor.py
 
-7. Finally, open the confignames.ini file in your jaws scripts folder
+9. Finally, open the confignames.ini file in your jaws scripts folder
 using a text editor such as notepad. After the line which reads
 [ConfigNames]
 enter a new line as described below.
@@ -65,7 +75,7 @@ the bottom of the file, but in more recent versions the .ini file
 contains more sections and the lines must be inserted in the
 [ConfigNames] section.
 
-8. Load the relevant program for writing/reading LaTeX, and press
+10. Load the relevant program for writing/reading LaTeX, and press
 ctrl+m to initialise the scripts. Repeat this keystroke to turn them
 off. You should be able to navigate the document and listen to audible
 speech output, as well as reading the mathematical translation on the

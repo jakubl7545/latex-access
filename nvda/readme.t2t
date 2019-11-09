@@ -1,11 +1,10 @@
 The latex-access GlobalPlugin for NVDA.
 Nathaniel Schmidt
-Thursday, 1st December 2011
-
+Thursday, 1/12/2011; Friday, 08/11/2019
 
 %!Target: html
 %!Encoding: UTF-8
-%!Options: -o readme.html --toc
+%!Options: -o ./addOn/doc/en/readme.html --toc
 
 % taken from NVDA source code:
 % Remove the Table of Contents heading from the toc.
@@ -19,14 +18,13 @@ Thursday, 1st December 2011
 %!PostProc(html): ^<H2>(.*)</H2>$ <H3>\1</H3>
 %!PostProc(html): ^<H1>(.*)</H1>$ <H2>\1</H2>
 
-
 =Table of Contents=[toc]
 %%toc
 
-+Introduction.+[intro]
++Introduction:+[intro]
 
 ++What is latex-access?++[l-a]
-Latex-access is a set of python scripts that provides realtime translation of a line of LaTeX into nemeth braille and speech, making the mathematics more readable to the blind user.  To find out more, [visit this webpage http://latex-access.sf.net], although you have probably already been there if you are viewing this readme file.
+Latex-access is a set of python scripts that provide realtime translation of a line of LaTeX raw source into braille (Nemeth and UEB), as well as speech, making the mathematics more readable to the blind user.  To find out more, [visit this webpage https://github.com/SugarCaneNS/latex-access], although you have probably already been there if you are viewing this readme file.
 
 ++What is this globalPlugin for?++[gpfor]
 This global plugin implements Communication between NVDA 2014.3 or later and the latex-access COM objects, letting the user read translated LaTeX documents in an easier fashion.
@@ -34,17 +32,17 @@ This global plugin implements Communication between NVDA 2014.3 or later and the
 +Requirements.+[require]
 To use this plugin, you will need to install the following software/libraries:
 
-- NVDA, version 2014.3 or later.  The NVDA website can be found at http://www.nvda-project.org/, and the download page can be found [here http://www.nvda-project.org/download/].
-- The latest build of version 2 of the python programming language.  Official website: http://www.python.org/.  I am currently using python 2.7.
-- The python for windows extentions, which can be downloaded at http://sourceforge.net/projects/pywin32/.  This package is required to registor the latex-access COM object, the matrix and perhaps the table COM object if that gets created.
-- The latex-access scripts.  You probably already have these, but if not, you will need subversion.  How to use this VCS is beyond the scope of this readme, but the svn repository can be found at: https://svn.code.sf.net/p/latex-access/code/.  Please remember the exact location where you installed the scripts!  I recommend using [tortoise svn http://tortoisesvn.net/] as your subversion client, it's accessible, and easy to use.
+- NVDA, version 2014.3 or later.  The NVDA website can be found at http://www.nvacess.org/, and the download page can be found [here https://www.nvaccess.org/download/].
+- The latest build of version 2, or 3, of the python programming language.  Official website: http://www.python.org/.  I have used python 2.7 in the past; however, am currently using Python 3.8..
+- The python for windows extentions, which can be downloaded at https://github.com/mhammond/pywin32/releases.  Specifically, one needs the sub-package called Comptypes, version 1.1.7.  This package is required to registor the latex-access COM object, the matrix and perhaps the table COM object if that gets created.
+- The latex-access scripts.  You probably already have these, but if not, you will need Git, which is a software package used to track, compile and control the process of software development.  How to use this distributed version control system (DVCS) is beyond the scope of this document; however, the Git repository can be found at: https://github.com/SugarCaneNS/latex-access.  Please remember the exact location where you installed the scripts!  I recommend using the command-line version of [Git for Windows https://git-scm.com/download/win] as your Git client, it's accessible, and easy to use.
 -
 
 +Registering the COM object and installing the globalPlugin.+[Register]
 Assuming you have followed the steps above and installed everything you need, you can install the plugin and register the COM object by doing the following:
 
 For registering the COM object:
-% BlockQuotes don't work within lists, so the html is written by hand.
+% BlockQuotes don't work within lists in txt2tags, so the html is written by hand.
 '''
 <ol>
 <li> Type windows and r to go into the run dialog, then type cmd and press enter.
@@ -65,11 +63,11 @@ matrix_processor.py
 <blockquote>
 python latex_access_COM.py
 </blockquote>
-however this only works if you have python in your path variable.  if this fails then use the full path to your python installation, for example :
+however this only works if you have python in your path variable.  If this fails then use the full path to your python installation, for example :
 <blockquote>
-c:\python26\python.exe latex_access_COM.py
+c:\python27\python.exe latex_access_COM.py
 </blockquote>
-then repeat with matrix_processor.py.
+Then repeat with matrix_processor.py.
 <li> type "exit" (without the quotes) in your currently open cmd shell.
 </ol>
 
@@ -102,7 +100,7 @@ DirectoryOfArchive/distribution\userConfig\globalPlugins\
 To turn translation on, press ctrl+M.  You should be able to here the translation of LaTeX mathematics via speech output.  To turn the translation off, press ctrl+M again.  You should then be able to navigate the document as normal.
 
 ++A note about edit fields:++ [note_edit]
-This keystroke should only work if you are in an edit field, and one that has accessible text enabled at that. You will either get errors, or a different response from an application if you try to use the latex_access global plugin in edit fields that are not native controls. I'm afraid that's just the way windows works. I know for a fact that notepad works with the plugin quite well, but in an editor such as EdSharp it does not. 
+This keystroke should only work if you are in an edit field, and one that has accessible text enabled at that. You will either get errors, or a different response from an application if you try to use the latex_access global plugin in edit fields that are not native controls. I'm afraid that's just the way windows works.
 
 +Toggling of dollar signs.+[dollar]
 It is possible to toggle the speaking and/or brailling of dollar signs.  The keys for this are ctrl+shift+d for speech and ctrl+d for Braille.
