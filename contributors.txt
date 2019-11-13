@@ -2,11 +2,12 @@ The following have contributed code or translation tables to the latex-access pr
 
 Julien Cochuyt <j.cochuyt@accessolutions.fr> - NVDA support 
 Daniel Dalton <daniel.dalton10@gmail.com> - Emacs support
+Lukasz Golonka <wulfryk1@gmail.com> - Development of main package and NVDA support.
 Alastair Irving <alastair.j.irving@gmail.com.au> - Main developer
 Dave Mielke <dave@mielke.cc> - BRLTTY integration
 Stefan Moisei <vortex37@gmail.com> -  Romanian translation of speech table
-Aron Ocsvari <oaron1@gmail.com> - Help with NVDA plugin
+Aron Ocsvari <oaron1@gmail.com> - NVDA support
 Derek Riemer <Derek.Riemer@colorado.edu> - Help with NVDA development for latex-access, especially the matrix browser.
 Nathaniel Schmidt <schmidty2244@gmail.com> - NVDA support
-Istvan Velegi <ivelegi@gmail.com> - help with JAWS scripts
+Istvan Velegi <ivelegi@gmail.com> - JAWS support
 Robin Williams <rmw205@exeter.ac.uk> - Extensive testing, feature suggestions and cleanup of the translation tables
