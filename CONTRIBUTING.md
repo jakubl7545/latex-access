@@ -19,22 +19,24 @@ git branch -u SugarCaneNS/master
 # Update the local master.
 git pull
 ```
-You should use a separate `topic` branch for each issue. All code should usually be based on the latest commit in the official master branch at the time you start the work unless the code is entirely dependent on the code for another issue. Branches should never be based on the "next" branch.
+You should use a separate `topic` branch for each issue. All code should usually be based on the latest commit in the official master branch at the time you start the work unless the code is entirely dependent on the code for another issue.
 If you are adding a feature or changing something that will be noticeable to the user, you should update the User Guide accordingly.
 When it is time to submit your code, you should open a pull request referring to the original issue. Code review will then be done on this pull request.
 
 ## Code Style
 ### Encoding
-* Where Python files contain non-ASCII characters, they should be encoded in UTF-8.
+* For the NVDA plugin: where Python files contain non-ASCII characters, they should be encoded in UTF-8.
 	* There should be no Unicode BOM at the start of the file, as this unfortunately breaks one of the translation tools we use (xgettext). Instead, include this as the first line of the file (only if the file contains non-ASCII characters):
 ```# -*- coding: UTF-8 -*-```
-	* This coding comment must also be included if strings in the code (even strings that aren't translatable) contain escape sequences that produce non-ASCII characters; e.g. `\xff`. This is particularly relevant for braille display drivers. This is due to a gettext bug; see https://github.com/nvaccess/nvda/issues/2592#issuecomment-155299911.
 
 ### Indentation
-* Indentation must be done with tabs (one per level), not spaces.
+* When indenting, try to be consistent with the rest of the file that you are currently working on.  In the case of newly-added files, indentation with tab's is preferred.
 * When splitting a single statement over multiple lines, just indent one or more additional levels. Don't use vertical alignment; e.g. lining up with the bracket on the previous line.
 	* Be aware that this requires a new-line after an opening parenthesis/bracket/brace if you intend to split the statement over multiple lines.
 	* For the parameter list of function definitions, double indent, this differentiates the parameters and the body of the function.
+
+### Line endings
+Because this project is a package that supports cross-platform integration into many other software packages, line endings for most files (with the exception of the JAWS scripts) should contain Unix-style lf (\\n) line endings.  We have deliberately made the JAWS scripts an exception to the norm, due to JAWS' inability to be able to adequately navigationally interact with lf line endings.  Consequently, any files contained within the JAWS subdirectory (including the readme) should use cr/lf (\\r\\n) line endings.  When using the Windows operating system, whilst committing and pushing with Git, or making a pull request, it is strongly recommended that contributors should use the Git for Windows default setting of `check-out Windows-style line endings, commit Unix-style line endings`.
 
 ### Identifier Names
 * Use descriptive names
