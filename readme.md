@@ -1,7 +1,7 @@
 # LaTeX-access
 ## Python scripts for processing LaTeX source into Nemeth or UEB braille and audible speech.
 
-Scripts written by Alastair Irving: alastair.j.irving@gmail.com.
+Scripts written by Alastair Irving.  Migrated to Git on Github from SVN on SourceForge by Nathaniel Schmidt: schmidty2244@gmail.com.
 
 Website: https://github.com/SugarCaneNS/latex-access
 Mailing List: latex-access-devel@groups.io
