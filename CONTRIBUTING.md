@@ -19,7 +19,7 @@ git branch -u SugarCaneNS/master
 # Update the local master.
 git pull
 ```
-You should use a separate "topic" branch for each issue. All code should usually be based on the latest commit in the official master branch at the time you start the work unless the code is entirely dependent on the code for another issue. Branches should never be based on the "next" branch.
+You should use a separate `topic` branch for each issue. All code should usually be based on the latest commit in the official master branch at the time you start the work unless the code is entirely dependent on the code for another issue. Branches should never be based on the "next" branch.
 If you are adding a feature or changing something that will be noticeable to the user, you should update the User Guide accordingly.
 When it is time to submit your code, you should open a pull request referring to the original issue. Code review will then be done on this pull request.
 
