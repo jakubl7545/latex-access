@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # latex_record.py
-#    A part of the latex-access project at http://latex-access.sourceforge.net/
+#    A part of the latex-access project at https://github.com/SugarCaneNS/latex-access/
 #    Author: Daniel Dalton <daniel.dalton10@gmail.com>
 #    Copyright (C) 2012 Daniel Dalton/latex-access Contributors
 #

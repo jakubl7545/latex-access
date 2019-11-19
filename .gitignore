@@ -1,7 +1,25 @@
 *.log
+*.strings
 
 *.dll
 *.exe
-
+*.jsb
 *.pyc
 *.pyo
+
+nvda/addOn/doc/*.css
+nvda/addon/doc/en/
+
+nvda/*.py[co]
+nvda/addon/manifest.ini
+
+*_docHandler.py
+*.htm
+*.html
+*.ini
+*.mo
+*.pot
+*.pdf
+
+*.nvda-addon
+nvda/.sconsign.dblite
