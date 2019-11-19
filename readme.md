@@ -38,7 +38,8 @@ As most refreshable braille displays are currently limited to one line, manipula
 One of the many powerful features of LaTeX is the ability to define custom commands. Latex-access includes a mechanism, the preprocessor, for including the definitions of such commands in the translation. Once commands have been added to the preprocessor they can be saved to a file for future use.
 
 ## Obtaining the scripts
-The scripts are currently only available through Git. The URL for the repository is https://github.com/SugarCaneNS/latex-access/
+The scripts are currently only available through Git. The URL for the repository is https://github.com/SugarCaneNS/latex-access/.
+
 Although following the above link will take you to the web version of the repository, we recommend you use an Git client. Git for Windows is accessible from the command line. Under both Windows and Linux you should use a command like:
 ```git clone --recursive https://github.com/SugarCaneNS/latex-access```
 
