@@ -8,7 +8,7 @@ If this is your first contribution, you will first need to "fork" the latex-acce
 When you fork the repository, GitHub will create a copy of the master branch. However, this branch will not be updated when the official master branch is updated. To ensure your work is always based on the latest commit in the official master branch, it is recommended that your master branch be linked to the official master branch, rather than the master branch in your GitHub fork. If you have cloned your GitHub fork, you can do this from the command line as follows:
 
 ```
-# Add a remote for the SugarCaneNS latex-accessrepository.
+# Add a remote for the SugarCaneNS latex-access repository.
 git remote add SugarCaneNS https://github.com/SugarCaneNS/latex-access.git
 # Fetch the SugarCaneNS branches.
 git fetch SugarCaneNS
@@ -51,8 +51,6 @@ Because this project is a package that supports cross-platform integration into 
 
 ### Translatable Strings (For the NVDA Addon):
 * All strings that could be presented to the user should be marked as translatable using the _() function; e.g. _("Text review").
-* All translatable strings should have a preceding translators comment describing the purpose of the string for translators. For example:
-```
+* All translatable strings should have a preceding translators comment describing the purpose of the string for translators. For example: ```
 # Translators: The name of a category of NVDA commands.
-SCRCAT_TEXTREVIEW = _("Text review")
-```
+SCRCAT_TEXTREVIEW = _("Text review")```
