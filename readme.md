@@ -43,7 +43,7 @@ One of the many powerful features of LaTeX is the ability to define custom comma
 The scripts are currently only available through Git. The URL for the repository is https://github.com/SugarCaneNS/latex-access/.<b/>
 
 Although following the above link will take you to the web version of the repository, we recommend you use a Git client. Git for Windows is accessible from the command line. Under both Windows and Linux you should use a command like:
-```git clone --recursive https://github.com/SugarCaneNS/latex-access```
+```git clone --recursive https://github.com/SugarCaneNS/latex-access.git```
 
 ## Contacting the Developers
 The developers of the project are always happy to answer any questions you may have. We are also keen to hear suggestions for any improvements or new features. Rather than contacting an individual developer directly it is probably best that you use our mailing list.  To subscribe, send an empty email to latex-access-devel+subscribe@groups.io.
