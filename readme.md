@@ -9,9 +9,11 @@ Mailing List: latex-access-devel@groups.io
 ## Overview
 Welcome to the home of latex-access.  The latex-access project is designed to provide a realtime translation of a line of LaTeX into braille, using either the Nemeth or UEB code, which can be read on a refreshable braille display. This will greatly improve the ease of use of LaTeX to blind mathematicians and scientists. The project also translates the current line into english speech which is easier to listen to than LaTeX source.
 Note that this project is largely aimed at people wishing to read LaTeX using a refreshable braille display and/or speech synthesiser, and people who will probably want to edit LaTeX documents. For example, a university student could receive worksheets in LaTeX format and produce their work using LaTeX. Using the latex-access scripts, they will be able to get a fairly good translation of the question and then an on-the-fly translation of their work as they produce it. If you are not concerned with editing LaTeX documents and simply want a braille translation of an entire laTeX document, then this project is not for you.
-Why the need for the project latex-access?
+
+## Why the need for the project latex-access?
 It is widely thought that LaTeX is a good system for a blind mathematician or scientist to use to create and read scientific documents, as it is a linear code and so the user does not have to interact with two-dimensional notation, such as fractions and column vectors. By reading this linear code, a blind person can take in and understand scientific documents in the same way that a sighted person would do by studying a printed document. It should be noted that normally, laTeX is just a source from which documents are converted into an attractive-looking, typeset document that can be printed or viewed on screen, often in a .pdf, .dvi or .ps format. For various technical reasons, documents in such formats are currently inaccessible with current screen-reading technology. The best current sollution therefore is not to concern ourselves with documents in these formats, but rather to read and interpret the LaTeX source code itself.
-Reading a laTeX document
+
+## Reading a laTeX document
 It is entirely possible to read a LaTeX document simply by reading the LaTeX source itself. This however, is often a time-consuming and pain-staking process, and it is often not particularly nice to read. For example, the LaTeX source for the quadratic formula is
 ```x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}```
 It is therefore the aim of the project to translate a line of LaTeX into a line of braille code, which can be read using a refreshable braille display. The project also aims to provide an audible translation of the LaTeX source which will be output through current screen-reading technology.
@@ -27,9 +29,9 @@ latex-access currently contains the following features.
 	* Many commands used to create a visually attractive document are either translated or ignored, often it is not necessary to see some formatting commands.
 	* A matrix browser feature to enable easier reading of larger matrices in LaTeX, see the description below.
 * Support for custom defined LaTeX commands.
-* An interface to the Windows screen reader Jaws.
+* Interfaces to the Windows screen-readers JAWS and NVDA.
 * Interfaces to BRLTTY and Emacspeak under Linux.
-* When using BRLTTY, cursor routing keys on Braille displays are supported making navigation much simpler.
+	* When using BRLTTY, cursor routing keys on Braille displays are supported making navigation much simpler.
 
 ### The Matrix Browser
 As most refreshable braille displays are currently limited to one line, manipulating matrices (EG multiplication) simply by reading LaTeX source code poses a problem, as we often need to see elements in different rows of a matrix at the same time. For smaller matrices we can usually do this by memorising the matrix, however for larger matrices (usually 3 by 3 and above), this becomes impossible. Therefore we have developed a browser interface which greatly eases the stress involved in performing matrix operations.

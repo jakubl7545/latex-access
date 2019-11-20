@@ -1,39 +1,33 @@
-# Latex-Access Contributor Covenant Code of Conduct
+# Latex-Access Contributor Covenantal Code of Conduct
 
 ## Our Pledge
-
 In the interest of fostering an open and welcoming environment, we, as
 the Latex-Access contributors and maintainers, pledge to make participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, race / ethnicity, biological sex characteristics, gender identity,
-level of experience, education, socio-economic background or status, nationality, culture, personal
-appearance, religion, or sexual identity and orientation.
+our community a harassment-free experience for everyone, regardless of: age; body size; disability (physical or intellectual); psychological or psychiatric disorder; race / ethnicity; biological sex characteristics; gender; level of experience concerning the various processes and procedures of project development; education; socio-economic background or status; nationality; culture; personal appearance; religion; or sexuality.
 
 ## Our Standards
-
 Examples of behavior that contributes to creating a positive environment
 include:
-
 * Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
+	* NOTE: Inclusive, by definition and implication, is intended to implicitly, as well as explicitly, cover the scope of one's rhetoric and attitude towards other peoples' viewpoints and experiences.  Please be respectful of others and be prepared to openly agree to disagree.
+* Gracefully offering and accepting constructive criticism
 * Focusing on what is best for the community
 * Showing empathy towards other community members
 * Giving credit where credit is due
 
 Examples of unacceptable behavior by participants include:
-
 * The use of sexualized language or imagery and unwelcome sexual attention or
  advances, whether done publically or privately
 * Trolling, insulting/derogatory comments, and personal or ideological attacks, whether done publically or privately
-* Social bullying and isolation from others, especially when influencing others in the community to do the same
+	* NOTE: An attack, by definition and implication, means that behaviour will not be tolerated when directed towards an individual, if it is deemed to be genuinely abusive (verbally, emotionally, socially, physically, or psychologically).  Simple intellectual differences of opinion probably do not and will not fall into this category.
+	* NOTE: Ideology, by definition, includes but is not limited to: politics, philosophy, epistemology, law, theology, etc.  It it strongly anticipated that issues of this nature will be highly unlikely to occur in this environment.  If anything of this nature does occur then the project owner / moderators / collaborators will make evaluative assessments at their own executive discretion.  Mostly, if not categorically, such discussions will likely be considered by the community to be unhelpful, unproductive and out-of-bounds for this project.
+* Social bullying and isolation from others, especially when influencing others in the community to do the same to each other
 * Publishing others' private information, such as a physical or electronic
  address, without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
  professional setting
 
 ## Our Responsibilities
-
 Project maintainers are responsible for clarifying the standards of acceptable
 behavior and are expected to take appropriate and fair corrective action in
 response to any instances of unacceptable behavior.
@@ -45,7 +39,6 @@ permanently any contributor for other behaviors that they deem inappropriate,
 threatening, offensive, or harmful.
 
 ## Scope
-
 This Code of Conduct applies both within project spaces and in public spaces
 when an individual is representing the project or its community. Examples of
 representing a project or community include using an official project e-mail
@@ -54,7 +47,6 @@ representative at an online or offline event. Representation of a project may be
 further defined and clarified by project maintainers.
 
 ## Enforcement
-
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting the project owner, Nathaniel Schmidt, at schmidty2244@gmail.com. All
 complaints will be reviewed and investigated and will result in a response that
@@ -67,11 +59,11 @@ faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
 
 ## Attribution
-
 This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+available at:
+https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
 
 [homepage]: https://www.contributor-covenant.org
 
-For answers to common questions about this code of conduct, see
+For answers to common questions about this code of conduct, see:
 https://www.contributor-covenant.org/faq
