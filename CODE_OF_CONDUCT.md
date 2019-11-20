@@ -9,7 +9,7 @@ our community a harassment-free experience for everyone, regardless of: age; bod
 Examples of behaviour that contributes to creating a positive environment
 include:
 * Using welcoming and inclusive language
-	* NOTE: Inclusive, by definition and implication, is intended to implicitly, as well as explicitly, cover the scope of one's rhetoric and attitude towards other peoples' viewpoints and experiences.  Please be respectful of others and be prepared to openly agree to disagree.
+	* NOTE: Inclusive, by definition and implication, is intended to implicitly, as well as explicitly, cover the scope of one's rhetoric and attitude towards other peoples' viewpoints and experiences.  
 * Gracefully offering and accepting constructive criticism
 * Focusing on what is best for the community
 * Showing empathy towards other community members
@@ -19,9 +19,8 @@ Examples of unacceptable behaviour by participants include:
 * The use of sexualized language or imagery and unwelcome sexual attention or
  advances, whether done publicly or privately
 * Trolling, insulting/derogatory comments, and personal or ideological attacks, whether done publicly or privately
-	* NOTE: An attack, by definition and implication, means that behaviour will not be tolerated when directed towards an individual, if it is deemed to be genuinely abusive (verbally, emotionally, socially, physically, or psychologically).  Simple intellectual differences of opinion probably do not and will not fall into this category.
+	* NOTE: An attack, by definition and implication, means that behaviour will not be tolerated when directed towards an individual, if it is deemed to be genuinely abusive (verbally, emotionally, socially, threatened to be physically, or psychologically).
 	* NOTE: Ideology, by definition, includes but is not limited to: politics, philosophy, epistemology, law, theology, etc.  It strongly anticipated that issues of this nature will be highly unlikely to occur in this environment.  If anything of this nature does occur then the project owner / moderators / collaborators will make evaluative assessments at their own executive discretion.  Mostly, if not categorically, such discussions will likely be considered by the community to be unhelpful, unproductive and out-of-bounds for this project.
-* Social bullying and isolation from others, especially when influencing others in the community to do the same to each other
 * Publishing others' private information, such as a physical or electronic
  address, without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a
