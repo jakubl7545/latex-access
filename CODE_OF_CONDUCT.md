@@ -6,7 +6,7 @@ the Latex-Access contributors and maintainers, pledge to make participation in o
 our community a harassment-free experience for everyone, regardless of: age; body size; disability (physical or intellectual); psychological or psychiatric disorder; race / ethnicity; biological sex characteristics; gender; level of experience concerning the various processes and procedures of project development; education; socio-economic background or status; nationality; culture; personal appearance; religion; or sexuality.
 
 ## Our Standards
-Examples of behavior that contributes to creating a positive environment
+Examples of behaviour that contributes to creating a positive environment
 include:
 * Using welcoming and inclusive language
 	* NOTE: Inclusive, by definition and implication, is intended to implicitly, as well as explicitly, cover the scope of one's rhetoric and attitude towards other peoples' viewpoints and experiences.  Please be respectful of others and be prepared to openly agree to disagree.
@@ -15,12 +15,12 @@ include:
 * Showing empathy towards other community members
 * Giving credit where credit is due
 
-Examples of unacceptable behavior by participants include:
+Examples of unacceptable behaviour by participants include:
 * The use of sexualized language or imagery and unwelcome sexual attention or
- advances, whether done publically or privately
-* Trolling, insulting/derogatory comments, and personal or ideological attacks, whether done publically or privately
+ advances, whether done publicly or privately
+* Trolling, insulting/derogatory comments, and personal or ideological attacks, whether done publicly or privately
 	* NOTE: An attack, by definition and implication, means that behaviour will not be tolerated when directed towards an individual, if it is deemed to be genuinely abusive (verbally, emotionally, socially, physically, or psychologically).  Simple intellectual differences of opinion probably do not and will not fall into this category.
-	* NOTE: Ideology, by definition, includes but is not limited to: politics, philosophy, epistemology, law, theology, etc.  It it strongly anticipated that issues of this nature will be highly unlikely to occur in this environment.  If anything of this nature does occur then the project owner / moderators / collaborators will make evaluative assessments at their own executive discretion.  Mostly, if not categorically, such discussions will likely be considered by the community to be unhelpful, unproductive and out-of-bounds for this project.
+	* NOTE: Ideology, by definition, includes but is not limited to: politics, philosophy, epistemology, law, theology, etc.  It strongly anticipated that issues of this nature will be highly unlikely to occur in this environment.  If anything of this nature does occur then the project owner / moderators / collaborators will make evaluative assessments at their own executive discretion.  Mostly, if not categorically, such discussions will likely be considered by the community to be unhelpful, unproductive and out-of-bounds for this project.
 * Social bullying and isolation from others, especially when influencing others in the community to do the same to each other
 * Publishing others' private information, such as a physical or electronic
  address, without explicit permission
@@ -29,13 +29,13 @@ Examples of unacceptable behavior by participants include:
 
 ## Our Responsibilities
 Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+behaviour and are expected to take appropriate and fair corrective action in
+response to any instances of unacceptable behaviour.
 
 Project maintainers have the right and responsibility to remove, edit, or
 reject comments, replies, references, links, commits, code, wiki edits, issues, and other contributions
 that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
+permanently any contributor for other behaviours that they deem inappropriate,
 threatening, offensive, or harmful.
 
 ## Scope
@@ -47,7 +47,7 @@ representative at an online or offline event. Representation of a project may be
 further defined and clarified by project maintainers.
 
 ## Enforcement
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
+Instances of abusive, harassing, or otherwise unacceptable behaviour may be
 reported by contacting the project owner, Nathaniel Schmidt, at schmidty2244@gmail.com. All
 complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
