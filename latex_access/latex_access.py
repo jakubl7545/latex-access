@@ -130,11 +130,11 @@ class translator:
             if curr in self.table:
                 i+=len(curr)
                 result=self.table[curr]
-                if type(result) in (types.StringType,types.UnicodeType):
+                if type(result) == 'str':
                     output+=self.space
                     output += result
                     output+=self.space
-                elif type(result)==types.TupleType or type(result)==types.ListType:
+                elif type(result) == 'tuple' or type(result) == 'list':
                     if rting==(): translation=self.general_command(input,i,result)
                     else: translation=self.general_command(input,i,result,(rting[0],rting[1]+len(output)))
                     output+=translation[0]
