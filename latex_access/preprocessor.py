@@ -21,7 +21,7 @@ try:
 except:
     import pickle
 
-import latex_access
+from . import latex_access
 
 class preprocessor(latex_access.translator):
     '''Preprocessor translator
