@@ -24,13 +24,10 @@ interact with classes."""
 
 import sys
 import os.path
-import settings
-import speech
-import nemeth
-import ueb
-import preprocessor
-import matrix_processor
-import table as t
+from . import settings, speech
+from . import nemeth, ueb
+from . import preprocessor, matrix_processor
+from . import table as t
 
 s=speech.speech()
 n=''
