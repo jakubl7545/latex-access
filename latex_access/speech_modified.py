@@ -40,7 +40,7 @@ class speech(latex_access.translator):
                 "\\tag":self.tag,"\\hat":("","hat"),"\\widehat":("","hat"),"\\bar":("","bar"),
                 "\\overline":("","bar"),"\\dot":("","dot"),"\\ddot":("","double dot"),"\\sum":self.sum,"\\prod":self.prod,"\\cup":self.union,"\\bigcup":self.union}
         
-        for (k,v) in new_table.iteritems():
+        for (k,v) in new_table.items():
             self.table[k]=v
         self.space=" "
         
