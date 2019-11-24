@@ -16,9 +16,7 @@
 #screenreaders and the latex access scripts
 
 
-from . import preprocessor
-import speech
-import settings
+from . import preprocessor, speech, settings
 import os
 
 class latex_access_com:
