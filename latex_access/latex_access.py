@@ -130,7 +130,11 @@ class translator:
             if curr in self.table:
                 i+=len(curr)
                 result=self.table[curr]
-                if type(result) == 'str':
+                try:
+                    res_type = (types.StringType, types.UnicodeType)
+                except AttributeError:
+                    res_type = ('str')
+                if type(result) in res_type:
                     output+=self.space
                     output += result
                     output+=self.space
@@ -205,7 +209,7 @@ class translator:
         An integer refers to the corresponding argument which is translated and inserted into the string.
 
         Returns usual tuple.'''
-        if type(delimitors[0])==types.StringType:
+        if type(delimitors[0])=='str':
             translation=self.space
             translation+=delimitors[0]
             translation+=self.space
@@ -225,7 +229,11 @@ class translator:
                 start=arg[1]
             translation=self.space
             for x in delimitors[1:]:
-                if type(x) in (types.StringType,types.UnicodeType):
+                try:
+                    x_type = (types.StringType, types.UnicodeType)
+                except AttributeError:
+                    x_type = ('str')
+                if type(x) in (x_type):
                     translation+=x
                     translation+=self.space
                 else:
